@@ -10,7 +10,7 @@ Import the necessary modules in python Create a socket connection to using the s
 
 ## PROGRAM:
 ## CLIENT:
-```
+
 import socket
 s = socket.socket()
 host = socket.gethostname()
@@ -29,9 +29,9 @@ f.close()
 print('Successfully get the file')
 s.close()
 print('connection closed')
-```
+
 ## SERVER:
-```
+
 
 import socket
 
@@ -59,7 +59,7 @@ while True:
     
     conn.send('Thank you for connecting'.encode())
     conn.close()
-    ```
+    
     
 CLIENT OUTPUT :
 
